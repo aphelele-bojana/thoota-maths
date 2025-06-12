@@ -20,7 +20,7 @@ const HeroArea = () => {
 										</span>
 									</div>
 									<h1 className="text-light" data-cue="fadeIn">
-										The Maths AI <span style={{color: "rgb(175 109 255)"}}>Maths Tutor</span>
+										The AI <span style={{color: "rgb(175 109 255)"}}>Maths Tutor</span>
 									</h1>
 									<p className="text-light mb-8 max-text-11" data-cue="fadeIn">
 										Learn maths anytime with voice-powered lessons that make complex concepts simple, engaging, and easier to master.

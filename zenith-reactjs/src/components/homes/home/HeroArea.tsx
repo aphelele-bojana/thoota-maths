@@ -1,4 +1,5 @@
 // import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import './home.scss'
 
 const HeroArea = () => {
@@ -31,7 +32,9 @@ const HeroArea = () => {
 									>
 										<div className="google-play-button">
 											<i className="bi bi-google-play"></i>
-											<span>Get it on Google Play</span>
+											<Link to="https://play.google.com/store/apps/details?id=com.companyname.thootaui">
+												<span>Get it on Google Play</span>
+											</Link>
 										</div>
 										<div className="app-store-button">
 											<i className="bi bi-apple"></i>

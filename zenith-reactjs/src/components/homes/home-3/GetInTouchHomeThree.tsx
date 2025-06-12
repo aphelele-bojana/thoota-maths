@@ -6,7 +6,7 @@ const GetInTouchHomeThree = () => {
        <div className="section-space-y">
       <div className="container">
         <div className="row g-4 align-items-center justify-content-xl-between">
-          <div className="col-lg-6"><span className="d-inline-block fs-20 text-gradient-primary fw-medium" data-cue="fadeIn">Get
+          <div className="col-lg-6"><span className="d-inline-block fs-20 fw-medium" data-cue="fadeIn" style={{color:"rgb(175 109 255)"}}>Get
               In touch</span>
             <h2 className="text-light" data-cue="fadeIn">Have any Project Plan In your Mind?</h2>
             <p className="mb-8" data-cue="fadeIn">Every great project starts with a single idea. If you have something in mind—big or small—we’d love to hear about it. Our team is ready to explore your vision, offer expert guidance, and help you bring your concept to life with smart, tailored solutions.</p>

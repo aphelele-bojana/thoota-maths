@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import './home.scss'
 
 const HeroArea = () => {
 	return (
@@ -28,20 +29,15 @@ const HeroArea = () => {
 										className="d-inline-flex align-items-center flex-wrap row-gap-2 column-gap-6"
 										data-cue="fadeIn"
 									>
-										<Link
-											to="/contact"
-											className="btn btn-primary-gradient text-white fs-14 border-0 rounded-pill"
-										>
-											<span className="d-inline-block">
-												Try Thoota AI Tutor for free
-											</span>
-											<span className="d-inline-block">
-												<i className="bi bi-arrow-right"></i>
-											</span>
-										</Link>
-										<span className="d-inline-block text-light">
-											No credit card required
-										</span>
+										<div className="google-play-button">
+											<i className="bi bi-google-play"></i>
+											<span>Get it on Google Play</span>
+										</div>
+										<div className="app-store-button">
+											<i className="bi bi-apple"></i>
+											<span>Download on the App Store</span>
+										</div>
+										
 									</div>
 								</div>
 								<div className="col-lg-5 col-xl-6">

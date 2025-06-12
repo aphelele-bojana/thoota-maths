@@ -10,9 +10,9 @@ const InfoAreaHomeOne = () => {
               </div>
             </div>
             <div className="col-lg-7">
-              <h2 className="h4 text-light mb-6" data-cue="fadeIn">
+              {/* <h2 className="h4 text-light mb-6" data-cue="fadeIn">
                 "Thoota's AI Isn't Just Data; It's Maths Expertise Guiding Your Unique Learning Path"
-              </h2>
+              </h2> */}
               <div className="d-flex align-items-center gap-5" data-cue="fadeIn">
                 <div className="d-grid place-content-center w-15 h-15 rounded-circle overflow-hidden flex-shrink-0">
                   <img src="assets/img/user_img_1.png" alt="image" className="w-100 h-100 object-fit-cover" />

@@ -14,14 +14,19 @@
 // });
 
 // vite.config.js
-import postcssImport from 'postcss-import';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import postcssImport from 'postcss-import'
 
-interface AtRule {
-  name: string;
-  remove: () => void;
-}
-
-export default {
+export default defineConfig({
+  base: './', // 👈 Fixes white screen issue on GitHub Pages or relative deployments
+  plugins: [react()],
+  build: {
+    outDir: 'dist',
+  },
+  server: {
+    open: true,
+  },
   css: {
     postcss: {
       plugins: [
@@ -29,9 +34,9 @@ export default {
         {
           postcssPlugin: 'strip-charset',
           AtRule: {
-            charset: (atRule: AtRule) => {
+            charset: (atRule) => {
               if (atRule.name === 'charset') {
-                atRule.remove();
+                atRule.remove()
               }
             },
           },
@@ -39,4 +44,4 @@ export default {
       ],
     },
   },
-};
+})

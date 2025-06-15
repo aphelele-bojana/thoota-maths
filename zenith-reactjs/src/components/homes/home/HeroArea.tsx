@@ -55,6 +55,67 @@ const HeroArea = () => {
 						</div>
 					</div>
 				</div>
+				<div className="section-space-md-y">
+					<div className="section-space-sm-bottom">
+						<div className="container">
+						<div className="row">
+							<div className="col-12">
+							<h3 className="mb-0 text-light text-center color-grey-200" data-cue="fadeIn">
+								Trusted by <span style={{color:"rgb(175, 109, 255)"}}>2000+</span> students, parents, and educators worldwide
+							</h3>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div className="container">
+						<div className="row">
+						<div className="col-12">
+							<ul
+							className="list list-row flex-wrap justify-content-center align-items-center row-gap-2 column-gap-8 column-gap-xl-12 column-gap-xxl-15"
+							data-cues="fadeIn"
+							data-group="images"
+							>
+							<li className="text-center">
+								<img
+								src="assets/img/brand-img-1.png"
+								alt="image"
+								className="img-fluid"
+								/>
+							</li>
+							<li className="text-center">
+								<img
+								src="assets/img/brand-img-2.png"
+								alt="image"
+								className="img-fluid"
+								/>
+							</li>
+							<li className="text-center">
+								<img
+								src="assets/img/brand-img-3.png"
+								alt="image"
+								className="img-fluid"
+								/>
+							</li>
+							<li className="text-center">
+								<img
+								src="assets/img/brand-img-4.png"
+								alt="image"
+								className="img-fluid"
+								/>
+							</li>
+							<li className="text-center">
+								<img
+								src="assets/img/brand-img-5.png"
+								alt="image"
+								className="img-fluid"
+								/>
+							</li>
+							</ul>
+						</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</>
 	);

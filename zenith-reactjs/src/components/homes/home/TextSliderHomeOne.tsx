@@ -12,19 +12,22 @@ const TextSliderHomeOne = () => {
                   <li>
                     <h2 className="text-light">Thoota Chatbots</h2>
                   </li>
-                  {/* <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li> */}
+                  <li>
+                    <img src="assets/img/icon-star.png" alt="image" className="img-fluid" />
+                  </li>
+                  <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
                     <h2 className="text-outline">Thoota Chatbots</h2>
                   </li>
-                  {/* <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li> */}
+                  <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
                     <h2 className="text-light">Thoota Chatbots</h2>
                   </li>
-                  {/* <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li> */}
+                  <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
                     <h2 className="text-outline">Thoota Chatbots</h2>
                   </li>
-                  {/* <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li> */}
+                  <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
                     <h2 className="text-light">Thoota Chatbots</h2>
                   </li>

@@ -36,7 +36,7 @@ const HeroArea = () => {
 												<span>Get it on Google Play</span>
 											</Link>
 										</div>
-										<div className="app-store-button">
+										<div className="app-store-button" aria-disabled style={{cursor:"not-allowed"}}>
 											<i className="bi bi-apple"></i>
 											<span>Download on the App Store</span>
 										</div>

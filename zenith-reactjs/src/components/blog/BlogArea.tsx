@@ -21,7 +21,7 @@ const BlogArea = () => {
 					<div className="row g-4" data-cues="fadeIn">
 						{blogs.map((item, index) => (
 													<div className="col-md-Link col-xl-4" key={index}>
-													<Link to="/blog-details" className="link d-block mb-6">
+													<Link to={`/blog-details?id=${item.id ?? index + 1}&title=${encodeURIComponent(item.title)}`} className="link d-block mb-6">
 														<img
 															src={item.blogImage}
 															alt="image"
@@ -41,7 +41,7 @@ const BlogArea = () => {
 													</div>
 													<h5>
 														<Link
-															to="/blog-details"
+															to={`/blog-details?id=${item.id ?? index + 1}&title=${encodeURIComponent(item.title)}`}
 															className="blog-title"
 														>
 															{item.title}
@@ -51,7 +51,7 @@ const BlogArea = () => {
 														{item.description}...
 													</p>
 													<Link
-														to="/blog-details"
+														to={`/blog-details?id=${item.id ?? index + 1}&title=${encodeURIComponent(item.title)}`}
 														className="btn btn-sm btn-outline-danger fs-14 rounded-pill"
 													>
 														<span className="d-inline-block">Read More</span>

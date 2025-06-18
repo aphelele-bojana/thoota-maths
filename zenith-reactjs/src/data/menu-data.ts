@@ -14,13 +14,8 @@ const menu_data = [
 	{
 		id: 2,
 		title: "Blog",
-		link: "#",
-		has_dropdown: true,
-		sub_menus: [
-			{ link: "/blog", title: "Blog Grid" },
-			{ link: "/blog-list", title: "Blog List" },
-			{ link: "/blog-details", title: "Blog Details" },
-		],
+		link: "/blog",
+		has_dropdown: false,
 	},
 	// {
 	// 	id: 3,

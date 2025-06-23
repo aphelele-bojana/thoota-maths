@@ -45,3 +45,7 @@
 .accordion-button {
     color: rgb(175, 109, 255) !important;
 }
+
+.accordion--faq .accordion-button[aria-expanded=true] {
+    color: #a288ff !important;
+}

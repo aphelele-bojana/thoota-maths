@@ -10,26 +10,26 @@ const TextSliderHomeOne = () => {
               <div className="scroller-x">
                 <ul className="list list-row scroller-x__list gap-6">
                   <li>
-                    <h2 className="text-light">Thoota Chatbots</h2>
+                    <h2 className="text-light">#1 Ai tutor</h2>
                   </li>
                   <li>
                     <img src="assets/img/icon-star.png" alt="image" className="img-fluid" />
                   </li>
                   <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
-                    <h2 className="text-outline">Thoota Chatbots</h2>
+                    <h2 className="text-outline">#1 Ai tutor</h2>
                   </li>
                   <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
-                    <h2 className="text-light">Thoota Chatbots</h2>
+                    <h2 className="text-light">#1 Ai tutor</h2>
                   </li>
                   <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
-                    <h2 className="text-outline">Thoota Chatbots</h2>
+                    <h2 className="text-outline">#1 Ai tutor</h2>
                   </li>
                   <li><img src="assets/img/icon-star.png" alt="image" className="img-fluid" /></li>
                   <li>
-                    <h2 className="text-light">Thoota Chatbots</h2>
+                    <h2 className="text-light">#1 Ai tutor</h2>
                   </li>
                 </ul>
               </div>

@@ -46,6 +46,7 @@ const FaqHomeOne = () => {
                         data-bs-target="#faqAccordion1"
                         aria-expanded="true"
                         aria-controls="faqAccordion1"
+                        style={{color:'rgb(175, 109, 255)'}}
                       >
                         How Does Thoota Prevent Cheating?
                       </button>

@@ -75,7 +75,7 @@ export default function LiveSupport(){
         <div className="col-12">
           <h6 className="text-center mb-0 text-light">
             What Is Thoota Maths Used For? For More Details?.{" "}
-            <span className="text-gradient-primary">
+            <span style={{color:'rgb(175, 109, 255)'}}>
              Explore More Math Tools!
             </span>
           </h6>

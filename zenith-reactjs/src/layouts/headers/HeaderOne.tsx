@@ -27,7 +27,7 @@ const HeaderOne = () => {
         <div className="container">
           <Link to="/" className="logo d-inline-flex align-items-center gap-2 mb-6 text-light text-decoration-none">
             <img src="assets/img/logo.main.png" alt="logo" className="logo__img" />
-            <span className="fs-4 fw-bold">Thoota</span>
+            <span className="fs-4 fw-bold">thoota</span>
           </Link>
 
 
